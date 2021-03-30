@@ -1,0 +1,24 @@
+{
+  "name": "api",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "^0.31.2",
+    "joi": "^17.4.0",
+    "modules": "^0.4.0",
+    "morgan": "~1.9.1",
+    "node": "^15.12.0",
+    "node-fetch-polyfill": "^2.0.6"
+  },
+  "devDependencies": {
+    "eslint": "^7.23.0",
+    "eslint-plugin-json": "^2.1.2"
+  }
+}
